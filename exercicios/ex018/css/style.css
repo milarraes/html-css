@@ -1,0 +1,19 @@
+@charset "UTF-8";
+      @font-face {
+        font-family: "lary";
+        src: url(../fonts/love\ larry\ ttf.ttf) format('truetype');
+      }
+      @font-face {
+        font-family: "love";
+        src: url(../fonts/LoveInYou.otf);
+      }
+      h1 {
+        font-family: "love";
+        color: blueviolet;
+        font-size: 132px;
+        font-weight: normal;
+      }
+      body{
+        font-family: "lary";
+      }
+    

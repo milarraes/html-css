@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Vídeos com HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>inserindo vídeos hospedados localmente</h1>
+    <p>este vídeo está hospedado localmente no meu servidor</p>
+    <video width="560" poster="imagens/limoes-capa.png" controls>
+      <source src="midia/meu-video.mp4" type="video/mp4">
+      <source src="midia/meu-video.m4v" type="video/m4v">
+      <source src="midia/meu-video.ogv" type="video/ogv">
+      <source src="midia/meu-video.webm" type="video/webm">
+      <p>infelizmente seu navegador não suporta arquivos de vídeo</p>
+    </video>
+    <!--essa forma usa muito tráfego do site, evite usar a menos que o cliente exija. na pág 3 está como fazer sem sobrecarregar o servidor-->
+   
+    <p>clique aqui para ver a <a href="pag3.html" rel="next">próxima página do site</a></p> 
+    <p>clique aqui para <a href="index.html" rel="prev">voltar para a página principal</a></p>
+  </body>
+</html>

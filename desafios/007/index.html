@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Desafio 007</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--peq é 256 x 489 
+        med é 740 489
+        gde é 1200 x 489 -->
+        você está vendo a imagem mudar de tamanho de acordo com o tamanho da págima? tente aumentar e diminuir para ver como ela se adapta. essa técnica é essencial para garantir que a imagem aparareça por inteiro, independente do tipo de tela do usuário (celular, tablet, computador, entre outros)
+        
+        <p><picture>
+          <source media="(max-width: 750px )" srcset="imagens/paisagem-p.png" type="image/png">
+          <source media="(max-width: 1050px )" srcset="imagens/paisagem-m.png" type="image/png">
+          <img src="imagens/paisagem-g.png" alt="foto-grande">
+        </picture></p>
+  
+  </body>
+</html>

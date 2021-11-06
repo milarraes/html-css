@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+/*
+Medidas Absolutas:
+cm, mm, in, px, pt, pc
+
+Medidas Relativas:
+em, ex, rem, vw, vh, %
+
+geralmente 16px = 1em; essas medidas são preferíveis para indicar tamanho de fonte
+*/
