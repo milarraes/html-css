@@ -17,7 +17,10 @@ thead, tfoot {
   color: white;
 } 
 
-tbody > tr:nth-child(2n) {
-  background-color: lightgray;
-  
+tbody > tr:nth-child(even) {
+  background-color: lightgray;  
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: white;  
 }
