@@ -5,6 +5,7 @@ body {
 table {
   width: 500px;
   border-collapse: collapse;
+  position: relative;
 }
 
 td, th {
@@ -16,6 +17,14 @@ thead, tfoot {
   background-color: darkcyan;
   color: white;
 } 
+
+thead > tr > th {  
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  background-color: darkcyan;
+
+}
 
 tbody > tr:nth-child(even) {
   background-color: lightgray;  
