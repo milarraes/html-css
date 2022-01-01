@@ -12,6 +12,11 @@ td {
   padding: 8px;
 }
 
-tbody > tr:nth-child(2n) {
-  background-color: gray;
+tbody > tr:nth-child(even){
+  background-color: #ddd;
+}
+
+thead, tfoot {
+  background-color: #383838;
+  color: white;
 }
